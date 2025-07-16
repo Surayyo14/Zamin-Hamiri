@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zamin Hamiri</title>
     <link rel="stylesheet" href="./style.css" />
 
-    <!-- Font Awesome -->
+    <link
+      rel="icon"
+      type="images/header/favicon.png"
+      href="/images/header/logo2.png"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-
-    <!-- Swiper CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
   </head>
   <body>
@@ -24,8 +22,11 @@
       <header>
         <div class="container">
           <nav class="header-logo">
-            <a href="./index.html">
-              <img src="./images/header/logo-gul.png" alt="hamir logo" />
+            <a href="#home">
+              <img
+                src="https://via.placeholder.com/80x80/4caf50/white?text=🌿"
+                alt="Zamin Hamiri Logo"
+              />
             </a>
           </nav>
 
@@ -39,23 +40,36 @@
               <a href="#home">Bosh sahifa</a>
               <a href="#about">Biz haqimizda</a>
               <a href="#products">Mahsulotlar</a>
+              <a href="#contact">Aloqa</a>
             </div>
             <div class="tel">
               <a href="tel:+998978788429">
-                <i class="fas fa-phone"></i> Aloqa
+                <i class="fas fa-phone"></i> Qo'ng'iroq
               </a>
             </div>
           </nav>
         </div>
       </header>
 
-      <!-- VIDEO -->
-      <section>
-        <iframe
-          src="https://www.youtube.com/embed/klDfUp2YLCA?si=kTLb2XvK7CbdHlwM"
-          title="YouTube video player"
-          allowfullscreen
-        ></iframe>
+      <!-- HERO SECTION -->
+      <section class="hero" id="home">
+        <div class="container">
+          <h1>Zamin Hamiri</h1>
+          <p>Eng sifatli va mazali hamirlar ishlab chiqaruvchisi</p>
+        </div>
+      </section>
+
+      <!-- VIDEO SECTION -->
+      <section class="video-section">
+        <div class="container">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/klDfUp2YLCA?si=kTLb2XvK7CbdHlwM"
+              title="YouTube video player"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </section>
 
       <!-- ABOUT -->
@@ -63,7 +77,9 @@
         <div class="container">
           <h1>Bizga yanada yaqin bo'ling!</h1>
           <p>
-            Biz haqimizda ko'proq ma'lumotga ega bo'lish va yangi retseptlar uchun <br> sahifalarimizga obuna bo'ling.
+            Biz haqimizda ko'proq ma'lumotga ega bo'lish va yangi retseptlar
+            uchun <br />
+            sahifalarimizga obuna bo'ling.
           </p>
           <div class="cube-container">
             <!-- Telegram -->
@@ -120,105 +136,225 @@
       <!-- PRODUCTS -->
       <section id="products" class="products">
         <div class="container">
-            <div class="product-title">
-                <h1>Bizning Mahsulotlar</h1>
-            </div>
-        <div class="product-card-wrap">
-             <div class="product-card">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="./images/header/logo2.png" alt="rasm1" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="./images/header/logo-gul.png" alt="rasm2" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="./images/header/header-logo.png" alt="rasm3" />
+          <div class="product-title">
+            <h1>Bizning Mahsulotlar</h1>
+          </div>
+          <div class="product-card-wrap">
+            <div class="product-card">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/4caf50/white?text=Somsa+Hamiri"
+                      alt="somsa hamiri 1"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/81c784/white?text=Tayyor+Hamiri"
+                      alt="somsa hamiri 2"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/66bb6a/white?text=Sifatli+Hamiri"
+                      alt="somsa hamiri 3"
+                    />
+                  </div>
                 </div>
               </div>
+              <h2>Somsa hamiri</h2>
+              <h3>Tarkibi: un, suv, tuz, maselka. Og'irligi: 950gr</h3>
+              <p>Yaroqlik muddati: 90 kun. Tayyor yoyilgan hamir.</p>
+              <span>Narxi: 17 000 so'm</span><br />
+              <button>Buyurtma berish</button>
             </div>
-            <h2>Somsa hamiri</h2>
-            <h3>Tarkibi: un, suv, tuz, maselka. Og'irligi: 950gr</h3>
-            <p>Yaroqlik muddati: 90 kun. Tayyor yoyilgan hamir.</p>
-            <span>Narxi: 17 000 so'm</span><br />
-            <button>Buyurtma berish</button>
-          </div>
-           <div class="product-card">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="./images/header/logo2.png" alt="rasm1" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="./images/header/logo-gul.png" alt="rasm2" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="./images/header/header-logo.png" alt="rasm3" />
+
+            <div class="product-card">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/9b59b6/white?text=Lavash+1"
+                      alt="lavash hamiri 1"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/f39c12/white?text=Lavash+2"
+                      alt="lavash hamiri 2"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/1abc9c/white?text=Lavash+3"
+                      alt="lavash hamiri 3"
+                    />
+                  </div>
                 </div>
               </div>
+              <h2>Lavash hamiri</h2>
+              <h3>Tarkibi: un, suv, tuz, maselka. Og'irligi: 1200gr</h3>
+              <p>Yaroqlik muddati: 90 kun. Tayyor yoyilgan hamir.</p>
+              <span>Narxi: 15 000 so'm</span><br />
+              <button>Buyurtma berish</button>
             </div>
-            <h2>Somsa hamiri</h2>
-            <h3>Tarkibi: un, suv, tuz, maselka. Og'irligi: 950gr</h3>
-            <p>Yaroqlik muddati: 90 kun. Tayyor yoyilgan hamir.</p>
-            <span>Narxi: 17 000 so'm</span><br />
-            <button>Buyurtma berish</button>
-          </div>
-           <div class="product-card">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="./images/header/logo2.png" alt="rasm1" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="./images/header/logo-gul.png" alt="rasm2" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="./images/header/header-logo.png" alt="rasm3" />
+
+            <div class="product-card">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/e67e22/white?text=Pizza+1"
+                      alt="pizza hamiri 1"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/8e44ad/white?text=Pizza+2"
+                      alt="pizza hamiri 2"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="https://via.placeholder.com/300x200/2ecc71/white?text=Pizza+3"
+                      alt="pizza hamiri 3"
+                    />
+                  </div>
                 </div>
               </div>
+              <h2>Pizza hamiri</h2>
+              <h3>Tarkibi: un, suv, tuz, maselka. Og'irligi: 800gr</h3>
+              <p>Yaroqlik muddati: 90 kun. Tayyor yoyilgan hamir.</p>
+              <span>Narxi: 12 000 so'm</span><br />
+              <button>Buyurtma berish</button>
             </div>
-            <h2>Somsa hamiri</h2>
-            <h3>Tarkibi: un, suv, tuz, maselka. Og'irligi: 950gr</h3>
-            <p>Yaroqlik muddati: 90 kun. Tayyor yoyilgan hamir.</p>
-            <span>Narxi: 17 000 so'm</span><br />
-            <button>Buyurtma berish</button>
           </div>
-        </div>
-          
         </div>
       </section>
+
+      <!-- MAP SECTION -->
+      <section class="map-section" id="contact">
+        <div class="container">
+          <div class="map-title">
+            <h1>Bizni toping</h1>
+            <p>Toshkent shahrida joylashgan zavodimizga tashrif buyuring</p>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.9!2d69.2401!3d41.3111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE4JzQwLjAiTiA2OcKwMTQnMjQuNCJF!5e0!3m2!1sen!2s!4v1234567890"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h3>Zamin Hamiri</h3>
+              <p>
+                Eng sifatli va mazali hamirlar ishlab chiqaruvchisi. Bizning
+                mahsulotlarimiz 100% tabiiy ingredientlardan tayyorlanadi.
+              </p>
+              <div class="social-links">
+                <a href="https://t.me/Surayyo1402" target="_blank">
+                  <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://instagram.com/yourpage" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://facebook.com/yourpage" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-section">
+              <h3>Mahsulotlar</h3>
+              <a href="#products">Somsa hamiri</a>
+              <a href="#products">Lavash hamiri</a>
+              <a href="#products">Pizza hamiri</a>
+              <a href="#products">Maxsus buyurtmalar</a>
+            </div>
+
+            <div class="footer-section">
+              <h3>Aloqa</h3>
+              <p><i class="fas fa-phone"></i> +998 97 878 84 29</p>
+              <p><i class="fas fa-envelope"></i> info@zaminhamiri.uz</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Toshkent shahar, Yunusobod
+                tumani
+              </p>
+            </div>
+
+            <div class="footer-section">
+              <h3>Foydali havolalar</h3>
+              <a href="#about">Biz haqimizda</a>
+              <a href="#products">Mahsulotlar</a>
+              <a href="#contact">Aloqa</a>
+              <a href="#">Yetkazib berish</a>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>&copy; 2024 Zamin Hamiri. Barcha huquqlar himoyalangan.</p>
+          </div>
+        </div>
+      </footer>
     </main>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-      new Swiper('.swiper', {
+      new Swiper(".swiper", {
         loop: true,
         autoplay: {
           delay: 6000,
-          disableOnInteraction: false
-        }
+          disableOnInteraction: false,
+        },
       });
     </script>
-
-    <!-- menu button -->
+    <!-- end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-      const toggle = document.querySelector('.menu-toggle');
-      const menuContent = document.querySelector('.menu-content');
-      const toggleIcon = toggle.querySelector('i');
+      // Swiper initialization
+      new Swiper(".swiper", {
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        effect: "fade",
+        fadeEffect: {
+          crossFade: true,
+        },
+      });
 
-      toggle.addEventListener('click', () => {
-        menuContent.classList.toggle('active');
+      // Menu toggle
+      const toggle = document.querySelector(".menu-toggle");
+      const menuContent = document.querySelector(".menu-content");
+      const toggleIcon = toggle.querySelector("i");
 
-        if (menuContent.classList.contains('active')) {
-          toggleIcon.classList.remove('fa-bars');
-          toggleIcon.classList.add('fa-times');
+      toggle.addEventListener("click", () => {
+        menuContent.classList.toggle("active");
+
+        // Ikonani almashtirish
+        if (menuContent.classList.contains("active")) {
+          toggleIcon.classList.remove("fa-bars");
+          toggleIcon.classList.add("fa-times"); // × belgisi
         } else {
-          toggleIcon.classList.remove('fa-times');
-          toggleIcon.classList.add('fa-bars');
+          toggleIcon.classList.remove("fa-times");
+          toggleIcon.classList.add("fa-bars"); // ☰ belgisi
         }
       });
     </script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
